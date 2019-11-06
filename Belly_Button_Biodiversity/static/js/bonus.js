@@ -59,5 +59,5 @@
                showgrid: false, range: [-1, 1]}
   };
   Plotly.newPlot('gauge', data, layout);
-})
-}
+
+
