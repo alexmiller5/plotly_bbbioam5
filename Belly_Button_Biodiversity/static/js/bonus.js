@@ -1,3 +1,4 @@
+// BONUS: Build the Gauge Chart
 // buildGauge(data.WFREQ);
   // Enter a speed between 0 and 180
   var level = data.WFREQ;
@@ -58,6 +59,4 @@
     yaxis: {zeroline:false, showticklabels:false,
                showgrid: false, range: [-1, 1]}
   };
-  Plotly.newPlot('gauge', data, layout);
-
-
+  Plotly.newPlot('gauge', data, layout); 

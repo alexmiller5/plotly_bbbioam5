@@ -16,8 +16,9 @@ function buildMetadata(sample) {
       );
     })
 
-    // BONUS: Build the Gauge Chart
-
+    // BONUS: Build the Gauge Chart-in bonus.js
+// buildGauge(data.WFREQ);
+  
 function buildCharts(sample) {
 
   // @TODO: Use `d3.json` to fetch the sample data for the plots
@@ -88,5 +89,4 @@ function optionChanged(newSample) {
 }
 
 // Initialize the dashboard
-init()
-  })}
+init();})}
